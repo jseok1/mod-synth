@@ -11,9 +11,7 @@ This requirement of understanding makes it hard for beginners to get started wit
 
 **Our goal will be to visualize your sound as it moves through each module so anyone can understand what's happening with your synth**
 
-Moreover working (or playing) with modular synths is a creative, iterative process, traditionally hearing the output of your synth can be inspiration on how to tweak your synth as it's running creating a feedback loop to aid you. We believe adding a visual aspect can only enrich this feedback loop.
-
-since we are building a software synth, then we are not bound by physical restrictions, so we will create a 
+Moreover working (or playing) with modular synths is a creative, iterative process. Traditionally hearing the output of your synth can be inspiration on how to tweak your synth as it's running creating a feedback loop to aid you. We believe adding a visual aspect can only enrich this feedback loop.
 
 ## potential tech stack
 * c++
