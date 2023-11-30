@@ -1,6 +1,13 @@
 # mod-synth
 A self descriptive modular synth
 
+## Set Up
+1. Install MSYS2.
+2. Open a MSYS2 MINGW64 terminal. (The filesystem is in C:/msys64 by default.)
+3. Run `pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake` to install mingw-w64-x86_64-gcc and mingw-w64-x86_64-cmake. These are specific versions for MinGW. Running `pacman -S gcc cmake` will install generic versions of gcc and cmake onto MSYS2 MSYS.
+4. Run `cmake -S . -B build` in the project directory to generate the build files inside the directory "build".
+5. Run `cmake --build build` to run those build files and generate executables.
+
 ## purpose
 Physical modular synths look like this:
 ![image](https://github.com/jseok1/mod-synth/assets/19198104/22cfc3c8-5705-4be7-85be-c80772767572)
